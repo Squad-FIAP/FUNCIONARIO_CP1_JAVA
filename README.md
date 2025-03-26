@@ -5,9 +5,20 @@ Este projeto em Java simula o gerenciamento de funcionários de um restaurante, 
 ---
 
 ## 📁 Estrutura do Projeto
-br.com.funcionario ├── main │ └── Main.java ├── model │ ├── InformacaoFuncionario.java │ ├── Funcionario.java │ ├── ControlePonto.java │ └── Operacao.java └── exception ├── CargoInvalidoException.java ├── FuncionarioNaoEncontradoException.java ├── HorarioInvalidoException.java ├── NotificacaoPedidoInvalido.java └── PedidoInvalidoException.java
-
-
+br.com.funcionario 
+├── main │ 
+    └── Main.java 
+├── model │
+    ├── InformacaoFuncionario.java │ 
+    ├── Funcionario.java 
+    ├── ControlePonto.java 
+    └── Operacao.java 
+└── exception 
+    ├── CargoInvalidoException.java 
+    ├── FuncionarioNaoEncontradoException.java 
+    ├── HorarioInvalidoException.java 
+    ├── NotificacaoPedidoInvalido.java 
+    └── PedidoInvalidoException.java
 ---
 
 ## 🧠 Descrição das Principais Classes
