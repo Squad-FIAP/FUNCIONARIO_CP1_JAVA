@@ -9,12 +9,9 @@ Este projeto em Java simula o gerenciamento de funcionários de um restaurante, 
     ├── br
     │   └── com
     │       └── funcionario
-    │           ├── exception
-    │           │   ├── CargoInvalidoException.java
-    │           │   ├── FuncionarioNaoEncontradoException.java
-    │           │   ├── HorarioInvalidoException.java
-    │           │   ├── NotificacaoPedidoInvalido.java
-    │           │   └── PedidoInvalidoException.java
+    │           ├── exception 
+    │           └── PedidoInvalidoException.java
+    |           |
     │           ├── main
     │           │   └── Main.java
     │           └── model
