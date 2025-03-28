@@ -2,24 +2,28 @@
 
 Este projeto em Java simula o gerenciamento de funcionários de um restaurante, com foco em operações como controle de ponto, execução de tarefas por cargo (Garçom, Cozinheiro, Gerente) e tratamento de erros com exceções personalizadas.
 
----
-
 ## 📁 Estrutura do Projeto
-br.com.funcionario 
-├── main │ 
-    └── Main.java 
-├── model │
-    ├── InformacaoFuncionario.java │ 
-    ├── Funcionario.java 
-    ├── ControlePonto.java 
-    └── Operacao.java 
-└── exception 
-    ├── CargoInvalidoException.java 
-    ├── FuncionarioNaoEncontradoException.java 
-    ├── HorarioInvalidoException.java 
-    ├── NotificacaoPedidoInvalido.java 
-    └── PedidoInvalidoException.java
----
+
+```
+└── src
+    ├── br
+    │   └── com
+    │       └── funcionario
+    │           ├── exception
+    │           │   ├── CargoInvalidoException.java
+    │           │   ├── FuncionarioNaoEncontradoException.java
+    │           │   ├── HorarioInvalidoException.java
+    │           │   ├── NotificacaoPedidoInvalido.java
+    │           │   └── PedidoInvalidoException.java
+    │           ├── main
+    │           │   └── Main.java
+    │           └── model
+    │               ├── ControlePonto.java
+    │               ├── Funcionario.java
+    │               ├── InformacaoFuncionario.java
+    │               └── Operacao.java
+    └── module-info.java
+```
 
 ## 🧠 Descrição das Principais Classes
 

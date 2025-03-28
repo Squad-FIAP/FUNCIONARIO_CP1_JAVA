@@ -1,4 +1,4 @@
-package br.com.funcionario.exception;
+package br.com.restaurante.funcionarios.exception;
 
 public class PedidoInvalidoException extends Exception{
 	
