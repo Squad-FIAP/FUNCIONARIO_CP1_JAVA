@@ -7,9 +7,9 @@ import br.com.restaurante.funcionarios.IFuncionario;
 public class Gerente extends Funcionario implements IFuncionario {
     private String departamento;
 
-    public Gerente(String nome, String telefone, String email, String cpf, String cargo,
+    public Gerente(int id,String nome, String telefone, String email, String cpf, String cargo,
                    double salario, String turno, Date dataAdmissao, double comissao, String departamento) {
-        super(nome, telefone, email, cpf, cargo, salario, turno, dataAdmissao, comissao);
+        super(id, nome, telefone, email, cpf, cargo, salario, turno, dataAdmissao, comissao);
         this.departamento = departamento;
     }
 

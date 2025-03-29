@@ -10,9 +10,9 @@ public class Cozinheiro extends Funcionario implements IFuncionario {
     
     private Map<String, String> pedidosAtivos;
 
-    public Cozinheiro(String nome, String telefone, String email, String cpf, String cargo,
+    public Cozinheiro(int id, String nome, String telefone, String email, String cpf, String cargo,
             double salario, String turno, Date dataAdmissao, double comissao) {
-        super(nome, telefone, email, cpf, cargo, salario, turno, dataAdmissao, comissao);
+        super(id, nome, telefone, email, cpf, cargo, salario, turno, dataAdmissao, comissao);
     }
     
     @Override

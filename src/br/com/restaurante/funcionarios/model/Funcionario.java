@@ -9,9 +9,9 @@ public abstract class Funcionario extends FichaCadastral {
     private String turno;
     private Date dataAdmissao;
 
-    public Funcionario(String nome, String telefone, String email, String cpf, String cargo,
+    public Funcionario(int id, String nome, String telefone, String email, String cpf, String cargo,
             double salario, String turno, Date dataAdmissao, double comissao) {
-        super(nome, telefone, email, cpf);
+        super(id, nome, telefone, email, cpf);
         this.cargo = cargo;
         this.salario = salario;
         this.turno = turno;
